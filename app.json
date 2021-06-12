@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "name": "Ciernediery.sk bot",
+  "description": "Bot which works with ciernediery.sk",
+  "repository": "git@github.com:yanlipnican/ciernediery.git",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
+  "keywords": ["ciernediery", "node"],
   "image": "heroku/nodejs"
 }
