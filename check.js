@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import * as Ciernediery from "./lib/ciernediery.js";
 import * as Email from "./lib/email.js";
 import * as db from "./lib/db.js";
