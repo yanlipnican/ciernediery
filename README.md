@@ -1,6 +1,6 @@
 # Ciernediery bot
 
-Bot that handles [ciernediery.sk](https://eshop.ciernediery.sk).
+Bot that handles [ciernediery.sk](https://eshop.ciernediery.sk). Webapp is currently running at [ciernediery-bot.herokuapp.com](https://ciernediery-bot.herokuapp.com/).
 
 ## Features
 
