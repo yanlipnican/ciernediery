@@ -6,10 +6,9 @@
     "node": "14.x"
   },
   "type": "module",
-  "main": "index.js",
+  "main": "web.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js",
+    "web": "node web.js",
     "check": "node check.js",
     "subscribers-add": "node add_subscriber.js",
     "logs-scheduler": "heroku logs --ps scheduler --tail",
