@@ -10,6 +10,6 @@ Bot that handles [ciernediery.sk](https://eshop.ciernediery.sk). Webapp is curre
 
 Add following env variables from heroku to `.env` file or copy `.env.template`
 
-- `MAILGUN_API_KEY`
-- `MAILGUN_DOMAIN`
+- `GMAIL_USER`
+- `GMAIL_PASSWORD`
 - `REDISTOGO_URL`
