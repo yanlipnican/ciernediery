@@ -11,7 +11,7 @@
     "web": "node web.js",
     "check": "node check.js",
     "subscribers-add": "node add_subscriber.js",
-    "logs-web": "heroku logs -a ciernediery-bot --tail"
+    "logs": "heroku logs -a ciernediery-bot --tail"
   },
   "dependencies": {
     "axios": "^0.21.1",
