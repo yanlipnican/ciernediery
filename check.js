@@ -37,6 +37,7 @@ async function main() {
 
         if (newProducts.length > 0) {
             console.log(`😃 Found ${newProducts.length} new ${newProducts.length > 1 ? "products" : "product"}.`);
+            newProducts.forEach(product => `🎑 ${product.name} - ${product.price}`);
 
             await sendNotifications(newProducts);
         } else {
