@@ -22,3 +22,9 @@ Simple express app `web.js` is hosted on heroku.
 ### Check
 
 `check.js` will retrieve new products and send emails. Both lists are in redis database. Check is executed periodically from heroku scheduler.
+
+### Show products
+
+```
+node show_products.js
+```
