@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "ciernediery-bot",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Bot to notify about new stuff on eshop",
   "engines": {
     "node": "14.x"
   },
@@ -11,14 +11,14 @@
     "web": "node web.js",
     "check": "node check.js",
     "subscribers-add": "node add_subscriber.js",
-    "logs-scheduler": "heroku logs --ps scheduler --tail",
-    "logs-web": "heroku logs --ps web --tail"
+    "logs-web": "heroku logs -a ciernediery-bot --tail"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.5",
     "express": "^4.15.2",
+    "heroku": "^7.30.1",
     "jsdom": "^16.6.0",
     "lodash": "^4.17.21",
     "nodemailer": "^6.6.1",
