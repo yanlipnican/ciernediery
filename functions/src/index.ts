@@ -10,8 +10,6 @@ const secrets = [
   "TWITTER_API_SECRET",
   "TWITTER_ACCESS_TOKEN",
   "TWITTER_ACCESS_TOKEN_SECRET",
-  "GMAIL_USER",
-  "GMAIL_PASSWORD",
 ];
 
 function handleError(error: any) {
