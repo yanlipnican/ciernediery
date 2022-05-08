@@ -14,6 +14,6 @@ export async function setProducts(products: Array<Product>) {
 
 export async function getProducts(): Promise<Array<Product>> {
   const doc = await getFirestore().collection(PRODUCTS_KEY).doc(PRODUCTS_KEY).get();
-  const products = await doc.get(PRODUCTS_KEY) as Array<Product>;
+  const {products} = doc.data() as { products: Array<Product> };
   return products;
 }
