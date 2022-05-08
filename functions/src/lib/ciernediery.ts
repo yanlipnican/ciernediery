@@ -81,6 +81,9 @@ export async function getProducts() {
 
 export async function getNewProducts() {
   const products = await getProducts();
+
+  console.log("🛢 Fetching products from database.");
+
   const lastProducts = await db.getProducts();
 
   console.log("🧰 Comparing old products with current products ...");
