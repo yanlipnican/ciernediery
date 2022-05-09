@@ -5,6 +5,9 @@ on:
       - main
     paths:
       - "functions/**/*"
+      - ".firebaserc"
+      - "firebase.json"
+      - ".github/workflows/functions.yml"
 
 jobs:
   deploy:
