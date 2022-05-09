@@ -3,11 +3,6 @@ import {getFirestore} from "firebase-admin/firestore";
 
 const PRODUCTS_KEY = "products";
 
-export type Subscriber = {
-    name: string;
-    email: string;
-}
-
 export async function setProducts(products: Array<Product>) {
   await getFirestore().collection(PRODUCTS_KEY).doc(PRODUCTS_KEY).set({products});
 }
