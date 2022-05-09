@@ -2,13 +2,13 @@ import * as functions from "firebase-functions";
 import {initializeApp} from "firebase-admin/app";
 import {getNewProducts} from "./lib/ciernediery";
 import {sendNotifications} from "./lib/notifications";
-import {getSecretsList} from "./lib/secrets";
+import {getSecretKeysList} from "./lib/secrets";
 
 initializeApp();
 
 export const scheduledFunction = functions
     .region("europe-west2")
-    .runWith({secrets: getSecretsList()})
+    .runWith({secrets: getSecretKeysList()})
     .pubsub
     .schedule("every minute")
     .onRun(async (_context) => {

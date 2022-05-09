@@ -9,7 +9,7 @@ const secrets = <const>[
   "TWITTER_ACCESS_TOKEN_SECRET",
 ];
 
-export function getSecretsList(): Array<string> {
+export function getSecretKeysList(): Array<string> {
   return secrets as unknown as Array<string>;
 }
 
