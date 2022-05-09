@@ -2,7 +2,7 @@ import {JSDOM} from "jsdom";
 import axios from "axios";
 import {isEqual, differenceWith} from "lodash";
 
-import * as db from "./db.js";
+import * as db from "./db";
 
 const URL = "https://eshop.ciernediery.sk";
 
