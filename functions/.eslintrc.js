@@ -29,6 +29,6 @@ module.exports = {
     "quotes": ["error", "double"],
     "import/no-unresolved": 1,
     "require-jsdoc": 0,
-    "max-len": 1,
+    "max-len": 0,
   },
 };
