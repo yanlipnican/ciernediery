@@ -1,0 +1,19 @@
+name: Deploy to firebase
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Firebase deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --message \"${{ github.event.head_commit.hash }}\"
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
