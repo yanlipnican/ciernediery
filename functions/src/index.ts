@@ -21,7 +21,7 @@ export const scheduledFunction = functions
     .region("europe-west2")
     .runWith({secrets})
     .pubsub
-    .schedule("every 10 minutes")
+    .schedule("every 2 minutes")
     .onRun(async (_context) => {
       console.log("🌟 Running check.");
 
